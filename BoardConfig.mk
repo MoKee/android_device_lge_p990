@@ -30,3 +30,7 @@ TARGET_OTA_ASSERT_DEVICE := p990
 BOARD_RIL_CLASS := ../../../device/lge/p990/ril/
 
 #BOARD_TOUCH_RECOVERY := true
+
+ifdef MK_RELEASE
+WITH_DEXPREOPT := true
+endif
