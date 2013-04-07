@@ -1,6 +1,6 @@
 [
  {
-   "repository": "android_kernel_lge_star",
+   "repository": "MoKee/android_kernel_lge_star",
    "target_path": "kernel/lge/star",
    "branch": "jb-mr1_mkt"
  }
