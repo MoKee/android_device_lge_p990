@@ -17,9 +17,13 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 1610612736
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Try to build the kernel
-#TARGET_KERNEL_CONFIG := cyanogenmod_p990_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_p990_defconfig
 
+<<<<<<< HEAD
 TARGET_PREBUILT_KERNEL := device/lge/p990/kernel/zImage
+=======
+#TARGET_PREBUILT_KERNEL := device/lge/p990/kernel
+>>>>>>> parent of a1edec3... use prebuilt kernel
 
 BOARD_VOLD_MAX_PARTITIONS := 20
 
