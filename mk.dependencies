@@ -3,5 +3,10 @@
    "repository": "MoKee/android_kernel_lge_star",
    "target_path": "kernel/lge/star",
    "branch": "jb-mr1_mkt"
+ },
+ {
+   "repository": "MoKee/android_vendor_lge_p990",
+   "target_path": "vendor/lge/p990",
+   "branch": "jb-mr1_mkt"
  }
 ]
