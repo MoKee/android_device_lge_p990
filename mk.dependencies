@@ -1,10 +1,10 @@
 [
  {
-   "repository": "MoKee/android_kernel_lge_star",
+   "repository": "android_kernel_lge_star",
    "target_path": "kernel/lge/star"
  },
  {
-   "repository": "MoKee/android_vendor_lge_p990",
+   "repository": "android_vendor_lge_p990",
    "target_path": "vendor/lge/p990"
  }
 ]
