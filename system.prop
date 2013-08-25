@@ -9,7 +9,9 @@ ro.sf.lcd_density=240
 mobiledata.interfaces=vsnet0,vsnet1,vsnet2,vsnet3
 
 # hold precise GC data, and use SMP
-dalvik.vm.dexopt-flags=m=y,u=n
+dalvik.vm.dexopt-flags=m=y,u=n,v=n,o=v
+
+ro.bq.gpu_to_cpu_unsupported=1
 
 # GSM, WCDMA preferred
 # This appears to be causing "Unknown" network type
@@ -21,7 +23,7 @@ ro.telephony.ril_class=LGEInfineon
 # Enable RIL recovery
 persist.radio.rr.enable=1
 
-# debugging
-ro.secure=0
-ro.debuggable=1
-persist.sys.usb.config=mtp,adb
+sys.mem.max_hidden_apps=4
+
+# force GPU rendering
+persist.sys.ui.hw=true
