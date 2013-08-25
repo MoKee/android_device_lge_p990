@@ -100,3 +100,7 @@ BOARD_HAS_VIBRATOR_IMPLEMENTATION := ../../device/lge/p990/vibrator.c
 
 # var
 TARGET_ARCH_LOWMEM := true
+
+ifdef MK_RELEASE
+WITH_DEXPREOPT := true
+endif
