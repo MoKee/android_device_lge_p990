@@ -51,7 +51,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	debug.sf.electron_frames=42 \
 	nv-camera-disable-early-graph=1 \
 	dalvik.vm.dexopt-data-only=1 \
-	sys.mem.max_hidden_apps=4 \
 	ro.lge.audio_soundexception=true \
 	ro.zram.default=18 \
 	persist.service.zram=18
@@ -98,7 +97,7 @@ PRODUCT_MANUFACTURER := LGE
 $(call inherit-product, device/common/gps/gps_eu.mk)
 
 # Inherit non-open-source blobs.
-$(call inherit-product-if-exists, vendor/lge/p990/p990-vendor.mk)
+$(call inherit-product, vendor/lge/p990/p990-vendor.mk)
 
 # Board-specific init
 PRODUCT_COPY_FILES += \
